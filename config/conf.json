@@ -1,0 +1,21 @@
+{
+    "jdbcDriver":"com.mysql.cj.jdbc.Driver",
+    "jdbcUrl":"jdbc:mysql://",
+    "port":3306,
+    "dbName":"hr_db",
+    "loadBalancingAlgorithm": "ROUND ROBIN",
+    "master":{
+        "host":"192.168.122.62",
+        "username":"local-user",
+        "password":"ThinkingMachines@734"
+    },
+    "slaves":[{
+        "host":"192.168.122.99",
+        "username":"local-user",
+        "password":"ThinkingMachines@734"
+    },{
+        "host":"192.168.122.108",
+        "username":"local-user",
+        "password":"ThinkingMachines@734"
+    }]
+}
